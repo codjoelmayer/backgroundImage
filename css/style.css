@@ -7,7 +7,7 @@
 }
 :root{
     --primary: rgb(0, 0, 0);
-    --bgMain: #227205;
+    --bgMain: #d8ddd5;
 }
 /*
 background-color
@@ -19,7 +19,9 @@ background-position: How to place the background image
 [main-bg] {
     background: var(--bgMain) url('https://i.postimg.cc/K8dh82Xf/61783418-l-1024x683.jpg') no-repeat;
     /* You just have to change the value of background-size */
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    mix-blend-mode: luminosity;
     height: 100svh;
 }
 [product-features] {
